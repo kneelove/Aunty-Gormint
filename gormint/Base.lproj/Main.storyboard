@@ -1,26 +1,166 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gormint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="starting">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="tMq-6P-ifx">
+                                <rect key="frame" x="42" y="68" width="291" height="464"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aunty Gormint Sound Board" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lex-uK-85a">
+                                        <rect key="frame" x="0.0" y="0.0" width="291" height="27"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dYj-eP-Zvd">
+                                        <rect key="frame" x="2" y="66" width="287" height="325"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="287" id="5we-dI-zWA"/>
+                                            <constraint firstAttribute="height" constant="325" id="PZK-uW-IYw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tt0-45-eYK">
+                                        <rect key="frame" x="61.5" y="430" width="168" height="34"/>
+                                        <color key="backgroundColor" red="0.25840353965759277" green="0.49994355440139771" blue="0.71046566963195801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="168" id="ZQu-Fy-Quf"/>
+                                        </constraints>
+                                        <state key="normal" title="Play"/>
+                                        <connections>
+                                            <segue destination="uyK-vM-Y1Q" kind="showDetail" id="UEs-j1-YW6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dYj-eP-Zvd" firstAttribute="top" secondItem="lex-uK-85a" secondAttribute="bottom" constant="39" id="yIe-PZ-OB3"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97797510259999998" blue="0.73826300590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tMq-6P-ifx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1DY-x3-0bZ"/>
+                            <constraint firstItem="tMq-6P-ifx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pr2-w2-bS9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+        <!--Soundboard-->
+        <scene sceneID="nuf-bq-6YD">
+            <objects>
+                <viewController id="uyK-vM-Y1Q" customClass="soundboard" customModule="gormint" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P6I-Qz-CM3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4kY-cB-JRi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jd9-gs-gQK" userLabel="soundboard">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7CL-7w-Te8">
+                                <rect key="frame" x="81" y="66" width="212" height="326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Press these buttons and support gormint aunty" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFV-zL-PED">
+                                        <rect key="frame" x="0.0" y="0.0" width="212" height="130"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="S4t-JM-THd"/>
+                                            <constraint firstAttribute="width" constant="212" id="xXC-36-PrP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tkr-xG-TJb">
+                                        <rect key="frame" x="0.0" y="130" width="212" height="196"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qS-Nz-inv">
+                                                <rect key="frame" x="6" y="0.0" width="200" height="34"/>
+                                                <color key="backgroundColor" red="0.25840353970000002" green="0.49994355439999999" blue="0.71046566960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="o9P-QY-4D7"/>
+                                                </constraints>
+                                                <state key="normal" title="Yeh Bik Gayi Hai.."/>
+                                                <connections>
+                                                    <action selector="btn1:" destination="uyK-vM-Y1Q" eventType="touchUpInside" id="VcM-d7-UdT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjk-M6-jq2">
+                                                <rect key="frame" x="6" y="54" width="200" height="34"/>
+                                                <color key="backgroundColor" red="0.25840353970000002" green="0.49994355439999999" blue="0.71046566960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="9Y7-Ti-Zim"/>
+                                                </constraints>
+                                                <state key="normal" title="Ab Gormint Me Kuch.."/>
+                                                <connections>
+                                                    <action selector="btn2:" destination="uyK-vM-Y1Q" eventType="touchUpInside" id="ybb-ej-AGN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vR3-Dj-IdO">
+                                                <rect key="frame" x="6" y="108" width="200" height="34"/>
+                                                <color key="backgroundColor" red="0.25840353970000002" green="0.49994355439999999" blue="0.71046566960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="TA6-2v-QMq"/>
+                                                </constraints>
+                                                <state key="normal" title="Yeh BC Saare Milke.."/>
+                                                <connections>
+                                                    <action selector="btn3:" destination="uyK-vM-Y1Q" eventType="touchUpInside" id="PsO-Dj-aYn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtQ-sp-UQB">
+                                                <rect key="frame" x="6" y="162" width="200" height="34"/>
+                                                <color key="backgroundColor" red="0.25840353970000002" green="0.49994355439999999" blue="0.71046566960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="ayM-tO-llX"/>
+                                                </constraints>
+                                                <state key="normal" title="Itne G@&amp;%^ k hai.."/>
+                                                <connections>
+                                                    <action selector="btn4:" destination="uyK-vM-Y1Q" eventType="touchUpInside" id="eHF-h1-fJw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <variation key="heightClass=compact" spacing="10"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMj-PC-WvE">
+                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97797510259999998" blue="0.73826300590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7CL-7w-Te8" firstAttribute="centerX" secondItem="jd9-gs-gQK" secondAttribute="centerX" id="0mN-Zv-wdK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRj-68-IFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="728.79999999999995" y="40.929535232383813"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="384" height="480"/>
+    </resources>
 </document>
