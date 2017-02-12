@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A272191E50693600DEC9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A272181E50693600DEC9B1 /* AppDelegate.swift */; };
+		71A2721B1E50693600DEC9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2721A1E50693600DEC9B1 /* ViewController.swift */; };
+		71A2721E1E50693600DEC9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A2721C1E50693600DEC9B1 /* Main.storyboard */; };
+		71A272201E50693600DEC9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A2721F1E50693600DEC9B1 /* Assets.xcassets */; };
+		71A272231E50693600DEC9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A272211E50693600DEC9B1 /* LaunchScreen.storyboard */; };
+		71A2722E1E50693600DEC9B1 /* gormintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2722D1E50693600DEC9B1 /* gormintTests.swift */; };
+		71A272391E50693600DEC9B1 /* gormintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A272381E50693600DEC9B1 /* gormintUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71A2722A1E50693600DEC9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A2720D1E50693600DEC9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A272141E50693600DEC9B1;
+			remoteInfo = gormint;
+		};
+		71A272351E50693600DEC9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A2720D1E50693600DEC9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A272141E50693600DEC9B1;
+			remoteInfo = gormint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71A272151E50693600DEC9B1 /* gormint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gormint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A272181E50693600DEC9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71A2721A1E50693600DEC9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71A2721D1E50693600DEC9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A2721F1E50693600DEC9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A272221E50693600DEC9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A272241E50693600DEC9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A272291E50693600DEC9B1 /* gormintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gormintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A2722D1E50693600DEC9B1 /* gormintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gormintTests.swift; sourceTree = "<group>"; };
+		71A2722F1E50693600DEC9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A272341E50693600DEC9B1 /* gormintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gormintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A272381E50693600DEC9B1 /* gormintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gormintUITests.swift; sourceTree = "<group>"; };
+		71A2723A1E50693600DEC9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A272121E50693600DEC9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A272261E50693600DEC9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A272311E50693600DEC9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A2720C1E50693600DEC9B1 = {
+			isa = PBXGroup;
+			children = (
+				71A272171E50693600DEC9B1 /* gormint */,
+				71A2722C1E50693600DEC9B1 /* gormintTests */,
+				71A272371E50693600DEC9B1 /* gormintUITests */,
+				71A272161E50693600DEC9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A272161E50693600DEC9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A272151E50693600DEC9B1 /* gormint.app */,
+				71A272291E50693600DEC9B1 /* gormintTests.xctest */,
+				71A272341E50693600DEC9B1 /* gormintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A272171E50693600DEC9B1 /* gormint */ = {
+			isa = PBXGroup;
+			children = (
+				71A272181E50693600DEC9B1 /* AppDelegate.swift */,
+				71A2721A1E50693600DEC9B1 /* ViewController.swift */,
+				71A2721C1E50693600DEC9B1 /* Main.storyboard */,
+				71A2721F1E50693600DEC9B1 /* Assets.xcassets */,
+				71A272211E50693600DEC9B1 /* LaunchScreen.storyboard */,
+				71A272241E50693600DEC9B1 /* Info.plist */,
+			);
+			path = gormint;
+			sourceTree = "<group>";
+		};
+		71A2722C1E50693600DEC9B1 /* gormintTests */ = {
+			isa = PBXGroup;
+			children = (
+				71A2722D1E50693600DEC9B1 /* gormintTests.swift */,
+				71A2722F1E50693600DEC9B1 /* Info.plist */,
+			);
+			path = gormintTests;
+			sourceTree = "<group>";
+		};
+		71A272371E50693600DEC9B1 /* gormintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71A272381E50693600DEC9B1 /* gormintUITests.swift */,
+				71A2723A1E50693600DEC9B1 /* Info.plist */,
+			);
+			path = gormintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A272141E50693600DEC9B1 /* gormint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A2723D1E50693600DEC9B1 /* Build configuration list for PBXNativeTarget "gormint" */;
+			buildPhases = (
+				71A272111E50693600DEC9B1 /* Sources */,
+				71A272121E50693600DEC9B1 /* Frameworks */,
+				71A272131E50693600DEC9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gormint;
+			productName = gormint;
+			productReference = 71A272151E50693600DEC9B1 /* gormint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71A272281E50693600DEC9B1 /* gormintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A272401E50693600DEC9B1 /* Build configuration list for PBXNativeTarget "gormintTests" */;
+			buildPhases = (
+				71A272251E50693600DEC9B1 /* Sources */,
+				71A272261E50693600DEC9B1 /* Frameworks */,
+				71A272271E50693600DEC9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A2722B1E50693600DEC9B1 /* PBXTargetDependency */,
+			);
+			name = gormintTests;
+			productName = gormintTests;
+			productReference = 71A272291E50693600DEC9B1 /* gormintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71A272331E50693600DEC9B1 /* gormintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A272431E50693600DEC9B1 /* Build configuration list for PBXNativeTarget "gormintUITests" */;
+			buildPhases = (
+				71A272301E50693600DEC9B1 /* Sources */,
+				71A272311E50693600DEC9B1 /* Frameworks */,
+				71A272321E50693600DEC9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A272361E50693600DEC9B1 /* PBXTargetDependency */,
+			);
+			name = gormintUITests;
+			productName = gormintUITests;
+			productReference = 71A272341E50693600DEC9B1 /* gormintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A2720D1E50693600DEC9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zeolabs;
+				TargetAttributes = {
+					71A272141E50693600DEC9B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					71A272281E50693600DEC9B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71A272141E50693600DEC9B1;
+					};
+					71A272331E50693600DEC9B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71A272141E50693600DEC9B1;
+					};
+				};
+			};
+			buildConfigurationList = 71A272101E50693600DEC9B1 /* Build configuration list for PBXProject "gormint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A2720C1E50693600DEC9B1;
+			productRefGroup = 71A272161E50693600DEC9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A272141E50693600DEC9B1 /* gormint */,
+				71A272281E50693600DEC9B1 /* gormintTests */,
+				71A272331E50693600DEC9B1 /* gormintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A272131E50693600DEC9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A272231E50693600DEC9B1 /* LaunchScreen.storyboard in Resources */,
+				71A272201E50693600DEC9B1 /* Assets.xcassets in Resources */,
+				71A2721E1E50693600DEC9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A272271E50693600DEC9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A272321E50693600DEC9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A272111E50693600DEC9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A2721B1E50693600DEC9B1 /* ViewController.swift in Sources */,
+				71A272191E50693600DEC9B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A272251E50693600DEC9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A2722E1E50693600DEC9B1 /* gormintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A272301E50693600DEC9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A272391E50693600DEC9B1 /* gormintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71A2722B1E50693600DEC9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A272141E50693600DEC9B1 /* gormint */;
+			targetProxy = 71A2722A1E50693600DEC9B1 /* PBXContainerItemProxy */;
+		};
+		71A272361E50693600DEC9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A272141E50693600DEC9B1 /* gormint */;
+			targetProxy = 71A272351E50693600DEC9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71A2721C1E50693600DEC9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A2721D1E50693600DEC9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A272211E50693600DEC9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A272221E50693600DEC9B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A2723B1E50693600DEC9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A2723C1E50693600DEC9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A2723E1E50693600DEC9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gormint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.gormint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71A2723F1E50693600DEC9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gormint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.gormint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		71A272411E50693600DEC9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gormintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.gormintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gormint.app/gormint";
+			};
+			name = Debug;
+		};
+		71A272421E50693600DEC9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gormintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.gormintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gormint.app/gormint";
+			};
+			name = Release;
+		};
+		71A272441E50693600DEC9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gormintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.gormintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gormint;
+			};
+			name = Debug;
+		};
+		71A272451E50693600DEC9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gormintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.gormintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gormint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A272101E50693600DEC9B1 /* Build configuration list for PBXProject "gormint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2723B1E50693600DEC9B1 /* Debug */,
+				71A2723C1E50693600DEC9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A2723D1E50693600DEC9B1 /* Build configuration list for PBXNativeTarget "gormint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A2723E1E50693600DEC9B1 /* Debug */,
+				71A2723F1E50693600DEC9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71A272401E50693600DEC9B1 /* Build configuration list for PBXNativeTarget "gormintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A272411E50693600DEC9B1 /* Debug */,
+				71A272421E50693600DEC9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71A272431E50693600DEC9B1 /* Build configuration list for PBXNativeTarget "gormintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A272441E50693600DEC9B1 /* Debug */,
+				71A272451E50693600DEC9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A2720D1E50693600DEC9B1 /* Project object */;
+}
